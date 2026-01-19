@@ -10,7 +10,7 @@ https://house-price-prediction-streamlit.onrender.com
 
 ## 📸 Application Preview
 
-![Preview ](images\Screenshot 2026-01-19 145214.png)
+![Preview ](images\Screenshot2026-01-19145214.png)
 
 ### 📌 Problem Statement
 
