@@ -6,7 +6,7 @@ It includes data preprocessing, model training, evaluation, and a user-friendly 
 🚀 Live Demo
 
 🔗 Deployed App (Render):
-👉 PASTE_YOUR_RENDER_LINK_HERE
+https://house-price-prediction-streamlit.onrender.com
 
 📸 Application Preview
 
@@ -100,4 +100,3 @@ Deploying ML apps using Streamlit & Render
 
 Translating ML models into real-world applications
 
-🔮 Future Improvements
