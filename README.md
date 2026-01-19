@@ -1,11 +1,11 @@
-## 🏠 House Price Prediction | Machine Learning Project
+##  House Price Prediction | Machine Learning Project
 
 An end-to-end Machine Learning regression project that predicts house prices in Bengaluru based on location, size, and other property features.
 The model is deployed as an interactive Streamlit web application using Render.
 
-## 🚀 Live Demo
+##  Live Demo
 
-### 🔗 Deployed App (Render):
+###  Deployed App (Render):
 https://house-price-prediction-streamlit.onrender.com
 
 ###  Project Overview
@@ -20,22 +20,22 @@ This project focuses on:
 
 The final model uses XGBoost, which outperformed linear models by capturing non-linear relationships.
 
-### 🗂️ Dataset
+###  Dataset
 
 - Source: Bengaluru House Price Dataset
 - Rows: ~13,000 (before cleaning)
 - Target Variable: price (in lakhs)
 
-## 📸 Application Preview
+##  Application Preview
 
 ![Preview ](images/streamlitapp.png)
 
-### 📌 Problem Statement
+###  Problem Statement
 
 Accurately predicting house prices is important for buyers, sellers, and real estate businesses.
 The goal of this project is to build a regression model that can predict house prices based on features such as location, size, number of rooms, and other property-related attributes.
 
-### 🧹 Data Cleaning & Preprocessing
+###  Data Cleaning & Preprocessing
 
 - Key preprocessing steps:
 - Handled missing values in location, size, bath
@@ -46,7 +46,7 @@ The goal of this project is to build a regression model that can predict house p
 - Square feet per BHK thresholds
 - IQR-based outlier removal
 
-### 🧠 Feature Engineering
+###  Feature Engineering
 
 Additional features created to improve model performance:
 
@@ -57,7 +57,7 @@ Additional features created to improve model performance:
 
 These features significantly improved prediction accuracy.
 
-### 🤖 Models Trained
+###  Models Trained
 
 The following models were trained and compared using pipelines:
 
@@ -66,8 +66,7 @@ The following models were trained and compared using pipelines:
 - Lasso Regression
 - XGBoost Regressor (Final Model)
 
-### 📊 Model Performance (R² Score)
-### 📊 Model Performance (R² Score)
+###  Model Performance (R² Score)
 
 | Model              | Test R² |
 |-------------------|---------|
@@ -78,7 +77,7 @@ The following models were trained and compared using pipelines:
 
 XGBoost performed best due to its ability to handle non-linear relationships.
 
-### 📈 Model Evaluation
+###  Model Evaluation
 
 The model was evaluated using:
 
@@ -92,7 +91,7 @@ Visualization:
 
 ![Actual vs Predict](images/prediction.png)
 
-### 🛠️ Tech Stack
+###  Tech Stack
 
 - Programming Language: Python
 - Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib
@@ -100,7 +99,7 @@ Visualization:
 - Deployment: Render
 - Version Control: Git & GitHub
 
-### 🧩 Project Workflow
+###  Project Workflow
 
 - Data Cleaning & Preprocessing
 - Exploratory Data Analysis (EDA)
@@ -110,7 +109,7 @@ Visualization:
 - Streamlit App Development
 - Deployment on Render
 
-### 📂 Project Structure
+###  Project Structure
 ```
 ├── app.py                  # Streamlit application
 ├── house_price_xgb.pkl     # Trained XGBoost model
@@ -123,7 +122,7 @@ Visualization:
 │   └── render_deploy.png
 └── README.md
 ```
-✅ Key Learnings
+### Key Learnings
 
 - End-to-end machine learning workflow
 - Model comparison and selection
