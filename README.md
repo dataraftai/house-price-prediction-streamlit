@@ -10,7 +10,7 @@ https://house-price-prediction-streamlit.onrender.com
 
 ## 📸 Application Preview
 
-![Preview ](images\Screenshot2026-01-19145214.png)
+![Preview ](images/streamlitapp.png)
 
 ### 📌 Problem Statement
 
@@ -42,7 +42,7 @@ Root Mean Squared Error (RMSE)
 
 Visualization:
 
-![Actual vs Predict](images\Screenshot-2026-01-19-160830.png)
+![Actual vs Predict](images/prediction.png)
 
 ### 🛠️ Tech Stack
 
