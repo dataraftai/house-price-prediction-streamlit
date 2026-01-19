@@ -9,6 +9,9 @@ It includes data preprocessing, model training, evaluation, and a user-friendly 
 https://house-price-prediction-streamlit.onrender.com
 
 📸 Application Preview
+!(/images/Screenshot 2026-01-19 145214.png)
+!(images/Screenshot 2026-01-19 160830.png)
+
 
 📌 Problem Statement
 
