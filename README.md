@@ -40,12 +40,7 @@ Root Mean Squared Error (RMSE)
 
 Visualization:
 
-Actual vs Predicted house prices were visualized using a scatter plot to evaluate model performance
-plt.scatter(y_test, y_pred_xgb, alpha=0.5)
-plt.xlabel("Actual Price")
-plt.ylabel("Predicted Price")
-plt.title("XGBoost: Actual vs Predicted")
-plt.show()
+!(images/Screenshot 2026-01-19 160830.png)
 
 🛠️ Tech Stack
 
@@ -76,7 +71,7 @@ Streamlit App Development
 Deployment on Render
 
 📂 Project Structure
-
+```
 ├── app.py                  # Streamlit application
 ├── house_price_xgb.pkl     # Trained XGBoost model
 ├── locations.pkl           # Location encoder data
@@ -87,7 +82,7 @@ Deployment on Render
 │   ├── app_ui.png
 │   └── render_deploy.png
 └── README.md
-
+```
 ✅ Key Learnings
 
 End-to-end machine learning workflow
