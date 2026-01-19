@@ -8,7 +8,7 @@ The model is deployed as an interactive Streamlit web application using Render.
 ### 🔗 Deployed App (Render):
 https://house-price-prediction-streamlit.onrender.com
 
-### 📌 Project Overview
+###  Project Overview
 
 Real estate price prediction is a classic regression problem with messy real-world data.
 This project focuses on:
@@ -67,11 +67,14 @@ The following models were trained and compared using pipelines:
 - XGBoost Regressor (Final Model)
 
 ### 📊 Model Performance (R² Score)
-Model	Test R²
-Linear Regression	~0.76
-Ridge Regression	~0.76
-Lasso Regression	~0.76
-XGBoost	~0.80
+### 📊 Model Performance (R² Score)
+
+| Model              | Test R² |
+|-------------------|---------|
+| Linear Regression | ~0.76   |
+| Ridge Regression  | ~0.76   |
+| Lasso Regression  | ~0.76   |
+| XGBoost           | ~0.80   |
 
 XGBoost performed best due to its ability to handle non-linear relationships.
 
