@@ -1,12 +1,30 @@
 ## 🏠 House Price Prediction | Machine Learning Project
 
-This project predicts house prices using supervised machine learning techniques.
-It includes data preprocessing, model training, evaluation, and a user-friendly Streamlit web application deployed on Render.
+An end-to-end Machine Learning regression project that predicts house prices in Bengaluru based on location, size, and other property features.
+The model is deployed as an interactive Streamlit web application using Render.
 
 ## 🚀 Live Demo
 
 ### 🔗 Deployed App (Render):
 https://house-price-prediction-streamlit.onrender.com
+
+### 📌 Project Overview
+
+Real estate price prediction is a classic regression problem with messy real-world data.
+This project focuses on:
+
+- Extensive data cleaning
+- Feature engineering based on domain knowledge
+- Model comparison and hyperparameter tuning
+- Deployment-ready ML pipeline
+
+The final model uses XGBoost, which outperformed linear models by capturing non-linear relationships.
+
+### 🗂️ Dataset
+
+- Source: Bengaluru House Price Dataset
+- Rows: ~13,000 (before cleaning)
+- Target Variable: price (in lakhs)
 
 ## 📸 Application Preview
 
@@ -17,28 +35,55 @@ https://house-price-prediction-streamlit.onrender.com
 Accurately predicting house prices is important for buyers, sellers, and real estate businesses.
 The goal of this project is to build a regression model that can predict house prices based on features such as location, size, number of rooms, and other property-related attributes.
 
-### 🧠 Machine Learning Approach
-✔️ Models Used
+### 🧹 Data Cleaning & Preprocessing
 
-Linear Regression
+- Key preprocessing steps:
+- Handled missing values in location, size, bath
+- Converted total_sqft from text (ranges like 1133 - 1384) to numeric
+- Extracted BHK from size
+- Grouped rare locations (≤10 occurrences) into an other category
+- Removed unrealistic outliers using:
+- Square feet per BHK thresholds
+- IQR-based outlier removal
 
-Ridge & Lasso Regression
+### 🧠 Feature Engineering
 
-Random Forest Regressor
+Additional features created to improve model performance:
 
-XGBoost Regressor (Best Performing Model)
+- bhk – number of bedrooms
+- bath_per_bhk – captures luxury & comfort level
+- sqft_per_bhk – captures space efficiency
+- Cleaned and encoded location using One-Hot Encoding
 
-✔️ Final Model
+These features significantly improved prediction accuracy.
 
-XGBoost Regressor selected based on evaluation metrics.
+### 🤖 Models Trained
 
-### 📊 Model Evaluation
+The following models were trained and compared using pipelines:
 
-R² Score
+- Linear Regression
+- Ridge Regression
+- Lasso Regression
+- XGBoost Regressor (Final Model)
 
-Mean Absolute Error (MAE)
+### 📊 Model Performance (R² Score)
+Model	Test R²
+Linear Regression	~0.76
+Ridge Regression	~0.76
+Lasso Regression	~0.76
+XGBoost	~0.80
 
-Root Mean Squared Error (RMSE)
+XGBoost performed best due to its ability to handle non-linear relationships.
+
+### 📈 Model Evaluation
+
+The model was evaluated using:
+
+- R² score
+- Train vs Test performance comparison
+- Actual vs Predicted price scatter plot
+
+This ensured the model generalized well without overfitting.
 
 Visualization:
 
@@ -46,15 +91,11 @@ Visualization:
 
 ### 🛠️ Tech Stack
 
-Programming Language: Python
-
-Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib
-
-Web App: Streamlit
-
-Deployment: Render
-
-Version Control: Git & GitHub
+- Programming Language: Python
+- Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib
+- Web App: Streamlit
+- Deployment: Render
+- Version Control: Git & GitHub
 
 ### 🧩 Project Workflow
 
