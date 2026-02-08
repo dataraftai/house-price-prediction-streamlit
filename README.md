@@ -130,3 +130,13 @@ Visualization:
 - Deploying ML apps using Streamlit & Render
 - Translating ML models into real-world applications
 
+### Power BI Dashboard
+
+A Power BI dashboard was created to provide interactive insights into Bengaluru house prices. The dashboard uses a clean dark theme to make visualizations stand out and allows easy exploration of key metrics:
+
+![Preview ](images/dashboard.png)
+
+-Average and median house prices
+-Price per square foot by location and BHK
+-Top locations by price and price per square foot
+-Relationship between total square footage, BHK, and price
