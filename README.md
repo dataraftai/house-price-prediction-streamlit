@@ -136,7 +136,7 @@ A Power BI dashboard was created to provide interactive insights into Bengaluru 
 
 ![Preview ](images/dashboard.png)
 
--Average and median house prices
--Price per square foot by location and BHK
--Top locations by price and price per square foot
--Relationship between total square footage, BHK, and price
+- Average and median house prices
+- Price per square foot by location and BHK
+- Top locations by price and price per square foot
+- Relationship between total square footage, BHK, and price
